@@ -1,19 +1,24 @@
 async function init() {
     await loadComponent('navbar', 'components/navbar/navbar.html');
-    await loadComponent('about',  'components/about/about.html');
+    await loadComponent('mobile-view', 'components/mobileHero/mobileHero.html');
     await loadComponent('counselling-logo', 'components/logoDiv/logoDiv.html');
+    await loadComponent('about',  'components/about/about.html');
     await loadComponent('recommends', 'components/recommends/recommends.html');
     await loadComponent('personal', 'components/personalProfile/personalProfile.html');
     await loadComponent('qualifications', 'components/qualifications/qualifications.html');
     await loadComponent('sessionDetails', 'components/sessionDetails/sessionDetails.html');
 
+
+
     loadStylesheet('components/navbar/navbar.css');
-    loadStylesheet('components/about/about.css');
+    loadStylesheet('components/mobileHero/mobileHero.css');
     loadStylesheet('components/logoDiv/logoDiv.css');
+    loadStylesheet('components/about/about.css');
     loadStylesheet('components/recommends/recommends.css');
     loadStylesheet('components/personalProfile/personalProfile.css');
     loadStylesheet('components/qualifications/qualifications.css');
     loadStylesheet('components/sessionDetails/sessionDetails.css');
+
 
 
     const script = document.createElement('script');

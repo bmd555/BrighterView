@@ -62,17 +62,3 @@ section {
     position: relative; /* so fixed navbar positions relative to this */
 }
 
-@media (max-width: 800px) {
-    .fs-split {
-        flex-direction: column;
-    }
-
-    .split-image {
-        display: none; /* hide image entirely on mobile */
-    }
-
-    .split-content {
-        width: 100%;
-        min-height: 100vh;
-    }
-}

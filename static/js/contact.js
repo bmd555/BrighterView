@@ -1,5 +1,6 @@
 async function init() {
     await loadComponent('navbar', 'components/navbar/navbar.html');
+    await loadComponent('mobile-view', 'components/mobileHero/mobileHero.html');
     await loadComponent('counselling-logo', 'components/logoDiv/logoDiv.html');
     await loadComponent('contactForm', 'components/contactForm/contactForm.html');
     await loadComponent('contactDetails', 'components/contactDetails/contactDetails.html');
@@ -7,6 +8,7 @@ async function init() {
 
 
     loadStylesheet('components/navbar/navbar.css');
+    loadStylesheet('components/mobileHero/mobileHero.css');
     loadStylesheet('components/logoDiv/logoDiv.css');
     loadStylesheet('components/contactForm/contactForm.css');
     loadStylesheet('components/contactDetails/contactDetails.css');

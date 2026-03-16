@@ -1,8 +1,10 @@
 async function init() {
     await loadComponent('navbar', 'components/navbar/navbar.html');
+    await loadComponent('mobile-view', 'components/mobileHero/mobileHero.html');
     await loadComponent('blog', 'components/blogPosts/blogPosts.html');
 
     loadStylesheet('components/navbar/navbar.css');
+    loadStylesheet('components/mobileHero/mobileHero.css');
     loadStylesheet('components/blogPosts/blogPosts.css');
 
     const navScript = document.createElement('script');
