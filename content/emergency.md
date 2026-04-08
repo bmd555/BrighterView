@@ -1,6 +1,4 @@
 ## If you are in desperate need of help, please call
 
- * someone else
- * Someone else
- * Someone else
- * or even someone else
+ * Samaritans - 116 123
+ * NHS24 - 111
