@@ -4,7 +4,6 @@ async function init() {
     await loadComponent('counselling-logo', 'components/logoDiv/logoDiv.html');
     await loadComponent('about',  'components/about/about.html');
     await loadComponent('emergency',  'components/emergency/emergency.html');
-    await loadComponent('recommends', 'components/recommends/recommends.html');
     await loadComponent('personal', 'components/personalProfile/personalProfile.html');
     await loadComponent('qualifications', 'components/qualifications/qualifications.html');
     await loadComponent('sessionDetails', 'components/sessionDetails/sessionDetails.html');
@@ -16,7 +15,6 @@ async function init() {
     loadStylesheet('components/logoDiv/logoDiv.css');
     loadStylesheet('components/about/about.css');
     loadStylesheet('components/emergency/emergency.css');
-    loadStylesheet('components/recommends/recommends.css');
     loadStylesheet('components/personalProfile/personalProfile.css');
     loadStylesheet('components/qualifications/qualifications.css');
     loadStylesheet('components/sessionDetails/sessionDetails.css');
@@ -33,7 +31,6 @@ async function init() {
 
     loadMarkdownInto('about-content', 'content/about.md');
     loadMarkdownInto('emergency-content', 'content/emergency.md');
-    loadMarkdownInto('recommends-content', 'content/recommends.md');
     loadMarkdownInto('personal-content', 'content/personalProfile.md');
     loadMarkdownInto('qualifications-content', 'content/qualifications.md');
     loadMarkdownInto('sessionDetails-content', 'content/sessionDetails.md');
